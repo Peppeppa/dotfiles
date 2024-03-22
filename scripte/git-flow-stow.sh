@@ -37,6 +37,6 @@ git push
 
 # Wenn das Flag -s gesetzt ist, führe stow aus
 if [ $stow_flag -eq 1 ]; then
-    stow
+    stow -d ~/git/dotfiles/ . -t ~/
 fi
 
