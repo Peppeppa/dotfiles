@@ -1,3 +1,1 @@
 require("medvidec")
-print("hello")
-
