@@ -23,8 +23,12 @@
 #                                   
 #-----------------------------------
 
-#	list
+#	movement
 #
+alias cl='clear && ls -ahl --color=auto'
+alias ..='cd ..'
+alias ...='cd .. && cd ..'
+alias c='clear'
 alias ls='ls --color=auto'
 alias ll='ls -ahl --color=auto'
 
