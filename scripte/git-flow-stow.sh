@@ -6,7 +6,7 @@ if [ "$1" == "-h" ]; then
     echo "NAME"
     echo "    gf - Git Flow mit Stow"
     echo ""
-    echo "Synopsis"
+    echo "SYNOPSIS"
     echo "    gf [<commitmessage>] [-s] [-h]"
     echo ""
     echo "BESCHREIBUNG"
