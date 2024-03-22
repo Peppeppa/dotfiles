@@ -1,5 +1,28 @@
 #!/bin/bash
 
+
+# Überprüfen, ob das -h Flag verwendet wird
+if [ "$1" == "-h" ]; then
+    echo "NAME"
+    echo "    gf - Git Flow mit Stow"
+    echo ""
+    echo "Synopsis"
+    echo "    gf [<commitmessage>] [-s] [-h]"
+    echo ""
+    echo "BESCHREIBUNG"
+    echo "    Führt Git-Operationen aus und führt optional den Befehl stow aus."
+    echo "    Es werden folgende Befehle in dieser Reihenfolge ausgeführt:"
+    echo "    	git add ."
+    echo " 	git commit -m <commitmessage>"
+    echo " 	git push"
+    echo ""
+    echo "OPTIONEN"
+    echo "    -h     Zeigt diese Hilfe an"
+    echo "    -s     Führt zusätzlich den Befehl stow aus"
+    echo ""
+    exit 0
+fi
+
 # Initialisierung der Variablen
 commit_message=""
 stow_flag=0
