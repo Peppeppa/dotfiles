@@ -49,4 +49,8 @@ alias gc='git commit -m'
 alias gps='git push'
 alias gpl='git pull'
 
+alias gf='~/scripte/git-flow-stow.sh'
+
+
+
 PS1='[\u@\h \W]\$ '
