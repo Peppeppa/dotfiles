@@ -40,3 +40,5 @@ if [ $stow_flag -eq 1 ]; then
     stow -d ~/git/dotfiles/ . -t ~/
 fi
 
+
+
