@@ -1,0 +1,3 @@
+require("medvidec")
+print("hello")
+
