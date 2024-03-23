@@ -17,10 +17,12 @@ vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 vim.keymap.set("i", "jk", "<Esc>")
+vim.keymap.set("n", "<Esc>", "<cmd>w<CR>")
 
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true})
 
-
+-- Füge ein # am Anfang jeder markierten Zeile im Visuellen Modus ein
+vim.keymap.set('v', '<leader>c', ':s/^/#/<CR>gv', { silent = true })
 
 
 
