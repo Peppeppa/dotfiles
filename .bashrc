@@ -34,13 +34,16 @@ alias ll='ls -ahl --color=auto'
 
 alias grep='grep --color=auto'
 
-#	systemalias
 
+#	systemalias
 
 alias stow='stow -d ~/git/dotfiles/ . -t ~/'
 alias unstow='stow -D -d ~/git/dotfiles/ . -t ~/'
 alias bashrc='vim ~/.bashrc'
 alias rlbash='source ~/.bashrc'
+alias v='nvim'
+
+#	Git
 
 alias g='git status'
 alias ga='git add'
