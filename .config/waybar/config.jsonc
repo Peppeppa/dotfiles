@@ -16,6 +16,9 @@
         "custom/updates",
         "custom/filemanager",
         "custom/mail",
+        "custom/browser",
+        "custom/chatgpt",
+        "custom/geforcenow",
         "wlr/taskbar",
         "hyprland/window"
     ],

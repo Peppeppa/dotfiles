@@ -79,6 +79,25 @@
         "on-click": "~/.config/.settings/mail.sh",
         "tooltip": false
     },
+    // Browser Launcher
+    "custom/browser": {
+        "format": "",
+        "on-click": "~/.config/.settings/browser.sh",
+        "tooltip": false
+    },    
+    // ChatGPT Launcher
+    "custom/chatgpt": {
+        "format": "",
+        "on-click": "chromium --app=https://chat.openai.com",
+        "tooltip": false
+    },
+    // Geforce now Launcher
+    "custom/geforcenow": {
+        "format": "",
+        "on-click": "chromium --app=https://play.geforcenow.com/mall/#/layout/games",
+        "tooltip": false
+    },
+
 
 
 }
