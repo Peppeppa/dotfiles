@@ -23,6 +23,7 @@
 
     "modules-left": [
         "group/quicklinks",
+        "custom/wallpaper",
         "custom/chatgpt",
         "wlr/taskbar",
         "hyprland/window"
@@ -33,11 +34,12 @@
     "modules-right": [
         "custom/updates",
         "group/hardware",
-        "idle_inhibitor",
         "network",
         "bluetooth",
         "pulseaudio",
         "battery",
+        "custom/cliphist",
+        "idle_inhibitor",
         "tray",
         "custom/exit",
         "clock"
