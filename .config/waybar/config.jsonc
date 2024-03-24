@@ -24,7 +24,8 @@
         "hyprland/window"
     ],
     "modules-center": [
-        "hyprland/workspaces"
+        "hyprland/workspaces",
+        "custom/exit"
     ],
     "modules-right": [
         "mpd",
