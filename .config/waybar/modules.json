@@ -87,7 +87,7 @@
 
     // Apps
     "custom/apps": {
-        "format": "",
+        "format": "   ",
         "tooltip": false
     },
 
