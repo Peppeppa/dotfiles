@@ -13,10 +13,8 @@
     
 
     "modules-left": [
+        "custom/updates",
         "wlr/taskbar",
-        "sway/mode",
-        "sway/scratchpad",
-        "custom/media",
         "hyprland/window"
     ],
     "modules-center": [
