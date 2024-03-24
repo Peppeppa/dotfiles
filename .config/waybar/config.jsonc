@@ -33,7 +33,10 @@
     "modules-right": [
         "custom/updates",
         "group/hardware",
+        "idle_inhibitor",
         "network",
+        "bluetooth",
+        "pulseaudio",
         "battery",
         "tray",
         "custom/exit",
