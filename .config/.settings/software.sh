@@ -1,1 +1,1 @@
-alactritty -e pacseek
+alacritty -e pacseek
