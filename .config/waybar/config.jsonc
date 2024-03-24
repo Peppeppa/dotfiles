@@ -33,8 +33,10 @@
     "modules-right": [
         "custom/updates",
         "group/hardware",
-        "clock",
-        "custom/exit"
+        "network",
+        "tray",
+        "custom/exit",
+        "clock"
     ]
 }
 
