@@ -63,7 +63,7 @@
         "exec": "~/.config/scripts/updates.sh",
         "restart-interval": 60,
         "on-click": "alacritty --class dotfiles-floating -e ~/.config/scripts/installupdates.sh",
-        "on-click-right": "~/dotfiles/.settings/software.sh",
+        "on-click-right": "~/.config/.settings/software.sh",
         "tooltip": false
     },
 
