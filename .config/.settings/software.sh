@@ -1,0 +1,1 @@
+alactritty -e pacseek
