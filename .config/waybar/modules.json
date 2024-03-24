@@ -73,6 +73,12 @@
         "on-click": "~/.config/.settings/filemanager.sh",
         "tooltip": false
     },
+    // Mail Launcher
+    "custom/mail": {
+        "format": "",
+        "on-click": "~/.config/.settings/mail.sh",
+        "tooltip": false
+    },
 
 
 }

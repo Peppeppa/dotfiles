@@ -15,6 +15,7 @@
     "modules-left": [
         "custom/updates",
         "custom/filemanager",
+        "custom/mail",
         "wlr/taskbar",
         "hyprland/window"
     ],
