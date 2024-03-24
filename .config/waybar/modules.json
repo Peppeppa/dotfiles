@@ -67,5 +67,13 @@
         "tooltip": false
     },
 
+    // Filemanager Launcher
+    "custom/filemanager": {
+        "format": "",
+        "on-click": "~/.config/.settings/filemanager.sh",
+        "tooltip": false
+    },
+
+
 }
 
