@@ -97,8 +97,11 @@
         "on-click": "chromium --app=https://play.geforcenow.com/mall/#/layout/games",
         "tooltip": false
     },
-
-
-
+    // Windows VM
+    "custom/windowsvm": {
+        "format": "",
+        "on-click": "~/.config/scripts/launchvm.sh",
+        "tooltip": false
+    },
 }
 

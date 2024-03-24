@@ -19,6 +19,7 @@
         "custom/browser",
         "custom/chatgpt",
         "custom/geforcenow",
+        "custom/windowsvm",
         "wlr/taskbar",
         "hyprland/window"
     ],
