@@ -52,7 +52,7 @@ alias gc='git commit -m'
 alias gps='git push'
 alias gpl='git pull'
 
-alias gf='~/scripte/git-flow-stow.sh'
+alias gf='~/.config/scripts/git-flow-stow.sh'
 
 
 

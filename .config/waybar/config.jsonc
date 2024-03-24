@@ -9,14 +9,15 @@
     "spacing": 0,
 
     //  Load Modules
-    "include": ["~/.config/waybar/ modules.json"],
+    "include": ["~/.config/waybar/modules.json"],
     
 
     "modules-left": [
-        "wlr/workspaces",
+        "wlr/taskbar",
         "sway/mode",
         "sway/scratchpad",
-        "custom/media"
+        "custom/media",
+        "hyprland/window"
     ],
     "modules-center": [
         "hyprland/workspaces"
