@@ -23,10 +23,11 @@
 
     "modules-left": [
         "clock",
-        "custom/wallpaper",
         "group/quicklinks",
-        "tray",
-        "custom/chatgpt"
+        "custom/wallpaper",
+        "custom/chatgpt",
+        "wlr/taskbar",
+        "hyprland/window"
     ],
     "modules-center": [
         "hyprland/workspaces",
@@ -34,12 +35,13 @@
     "modules-right": [
         "custom/updates",
         "group/hardware",
-        "bluetooth",
         "network",
+        "bluetooth",
         "pulseaudio",
         "battery",
         "custom/cliphist",
         "idle_inhibitor",
+        "tray",
         "custom/exit"
     ]
 }

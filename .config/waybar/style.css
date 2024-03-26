@@ -141,6 +141,7 @@ window#waybar.empty #window {
 
 .modules-right > widget:last-child > #workspaces {
     margin-right: 0;
+
 }
 
 /* -----------------------------------------------------
@@ -159,24 +160,21 @@ window#waybar.empty #window {
 #custom-system,
 #custom-apps,
 #custom-waybarthemes {
-    margin-right: 15px;
-    font-size: 15px;
+    margin-right: 14px;
+    font-size: 18px;
     font-weight: bold;
     opacity: 0.8;
     color: @iconcolor;
 }
  
 #custom-system {
-    margin-right:15px;
+    margin-right:10px;
 }
 
 #custom-wallpaper {
-    margin-right:15px;
+    margin-right:5px;
 }
 
-#custom-waybarthemes, #custom-settings {
-    margin-right:20px;
-}
 
 /* -----------------------------------------------------
  * Idle Inhibator
@@ -203,9 +201,9 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-exit {
-    margin: 0px 20px 0px 0px;
+    margin: 0px 10px 0px 0px;
     padding:0px;
-    font-size:15px;
+    font-size:17px;
     color: @iconcolor;
     opacity:0.8;
 }
@@ -220,7 +218,7 @@ window#waybar.empty #window {
     color: @textcolor2;
     border-radius: 15px;
     padding: 2px 10px 0px 10px;
-    margin: 8px 13px 8px 0px;
+    margin: 8px 10px 8px 0px;
     opacity:0.8;
 }
 
@@ -259,11 +257,12 @@ window#waybar.empty #window {
 
 #clock {
     background-color: @backgrounddark;
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
     color: @textcolor1;
     border-radius: 15px;
     padding: 1px 10px 0px 10px;
-    margin: 6px 15px 6px 0px;
+    margin: 6px 25px 6px 9px;
     opacity:0.8;
     border:2.3px solid @bordercolor;   
 }
@@ -274,11 +273,11 @@ window#waybar.empty #window {
 
 #pulseaudio {
     background-color: @backgroundlight;
-    font-size: 14px;
+    font-size: 18px;
     color: @textcolor2;
     border-radius: 15px;
     padding: 2px 10px 0px 10px;
-    margin: 8px 5px 8px 0px;
+    margin: 8px -2px 8px 0px;
     opacity:0.8;
 }
 
@@ -293,11 +292,11 @@ window#waybar.empty #window {
 
 #network {
     background-color: @backgroundlight;
-    font-size: 14px;
+    font-size: 18px;
     color: @textcolor2;
     border-radius: 15px;
     padding: 2px 10px 0px 10px;
-    margin: 8px 0px 8px 0px;
+    margin: 8px -5px 8px 0px;
     opacity:0.8;
 }
 
@@ -318,11 +317,11 @@ window#waybar.empty #window {
 
  #bluetooth, #bluetooth.on, #bluetooth.connected {
     background-color: @backgroundlight;
-    font-size: 16px;
+    font-size: 18px;
     color: @textcolor2;
     border-radius: 15px;
     padding: 2px 10px 0px 10px;
-    margin: 8px 10px 8px 0px;
+    margin: 8px 0px 8px 0px;
     opacity:0.8;
 }
 
@@ -338,11 +337,11 @@ window#waybar.empty #window {
 
 #battery {
     background-color: @backgroundlight;
-    font-size: 16px;
+    font-size: 18px;
     color: @textcolor2;
     border-radius: 15px;
     padding: 2px 15px 0px 10px;
-    margin: 8px 10px 8px 0px;
+    margin: 8px 0px 8px 0px;
     opacity:0.8;
 }
 

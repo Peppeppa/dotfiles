@@ -216,6 +216,29 @@
         ]
     },
 
+    // Group system
+    "group/system": {
+        "orientation": "horizontal",
+        "modules": [
+            "bluetooth",
+            "custom/network",
+            "pulseaudio",
+            "battery",
+            "custom/idle_inhibitor",
+            "custom/exit",
+        ]
+    },
+
+    // Group tray
+    "group/tray": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/cliphist",
+            "custom/wallpaper",
+            "tray",
+        ]
+    },
+
     // Network
     "network": {
         "format": "",
@@ -249,12 +272,13 @@
     // Pulseaudio
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{icon} {volume}%",
+        "format": "{icon}",     //"{icon} {volume}%",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
+        "tooltip-format":"{volume}%",
         "format-icons": {
             "headphone": "",
             "hands-free": "",
