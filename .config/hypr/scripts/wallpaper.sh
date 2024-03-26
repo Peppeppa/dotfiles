@@ -15,6 +15,7 @@ blurred="$HOME/.cache/blurred_wallpaper.png"
 rasi_file="$HOME/.cache/current_wallpaper.rasi"
 blur_file="$HOME/.config/.settings/blur.sh"
 
+
 blur="50x30"
 blur=$(cat $blur_file)
 

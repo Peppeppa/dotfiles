@@ -23,8 +23,8 @@
 
     "modules-left": [
         "clock",
-        "custom/wallpaper",
         "group/quicklinks",
+        "custom/wallpaper",
         "tray",
         "custom/chatgpt"
     ],

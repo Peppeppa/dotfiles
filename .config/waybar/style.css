@@ -171,10 +171,13 @@ window#waybar.empty #window {
     margin-right:10px;
 }
 
-#custom-wallpaper {
-    margin-right:5px;
+#custom-wallpaper{
+    margin-left:8px;
 }
 
+#custom-apps{
+    margin-right:10px;
+}
 
 /* -----------------------------------------------------
  * Idle Inhibator
@@ -263,7 +266,7 @@ window#waybar.empty #window {
     color: @textcolor1;
     border-radius: 15px;
     padding: 1px 10px 0px 10px;
-    margin: 6px 25px 6px 9px;
+    margin: 6px 15px 6px 9px;
     opacity:0.8;
     border:2.3px solid @bordercolor;   
 }
