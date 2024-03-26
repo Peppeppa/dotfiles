@@ -222,6 +222,7 @@ window#waybar.empty #window {
     opacity:0.8;
 }
 
+
 #custom-updates.green {
     background-color: @backgroundlight;
 }
