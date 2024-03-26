@@ -9,6 +9,9 @@
 # medvidec 2023
 #--------------------------------------------------
 
+#restore colorscheme
+wal -R -q
+neofetch
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -28,7 +31,7 @@
 alias cl='clear && ls -ahl --color=auto'
 alias ..='cd ..'
 alias ...='cd .. && cd ..'
-alias c='clear'
+alias c='clear && neofetch'
 alias ls='ls --color=auto'
 alias ll='ls -ahl --color=auto'
 
@@ -39,7 +42,7 @@ alias grep='grep --color=auto'
 
 alias stow='stow -d ~/git/dotfiles/ . -t ~/'
 alias unstow='stow -D -d ~/git/dotfiles/ . -t ~/'
-alias bashrc='vim ~/.bashrc'
+alias bashrc='v ~/.bashrc'
 alias rlbash='source ~/.bashrc'
 alias v='nvim'
 
