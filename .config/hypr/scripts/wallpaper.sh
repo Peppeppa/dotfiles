@@ -13,7 +13,7 @@
 cache_file="$HOME/.cache/current_wallpaper"
 blurred="$HOME/.cache/blurred_wallpaper.png"
 rasi_file="$HOME/.cache/current_wallpaper.rasi"
-blur_file="$HOME/dotfiles/.settings/blur.sh"
+blur_file="$HOME/.config/.settings/blur.sh"
 
 blur="50x30"
 blur=$(cat $blur_file)
@@ -78,7 +78,7 @@ newwall=$(echo $wallpaper | sed "s|$HOME/wallpaper/||g")
 # ----------------------------------------------------- 
 # Reload waybar with new colors
 # -----------------------------------------------------
-~/dotfiles/waybar/launch.sh
+~/.config/waybar/launchwaybar.sh
 
 # ----------------------------------------------------- 
 # Set the new wallpaper
