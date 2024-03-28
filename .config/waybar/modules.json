@@ -149,6 +149,7 @@
         // START CLOCK FORMAT
         "format-alt": "{:%Y-%m-%d}"
         // END CLOCK FORMAT
+
     },
 
     // System
