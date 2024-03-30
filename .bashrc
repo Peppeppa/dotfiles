@@ -37,6 +37,9 @@ alias ...='cd .. && cd ..'
 alias c='clear && neofetch'
 alias ls='ls --color=auto'
 alias ll='ls -ahl --color=auto'
+cdd() {
+    cd "$1" && clear && ls -ahl --color=auto
+}
 
 alias grep='grep --color=auto'
 
