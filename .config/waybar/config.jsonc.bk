@@ -25,23 +25,22 @@
         "clock",
         "group/quicklinks",
         "custom/wallpaper",
-        "custom/chatgpt",
-        "wlr/taskbar",
-        "hyprland/window"
+        "tray",
+        "custom/chatgpt"
     ],
     "modules-center": [
         "hyprland/workspaces",
     ],
     "modules-right": [
+        "group/system",
         "custom/updates",
         "group/hardware",
-        "network",
         "bluetooth",
+        "network",
         "pulseaudio",
         "battery",
         "custom/cliphist",
         "idle_inhibitor",
-        "tray",
         "custom/exit"
     ]
 }

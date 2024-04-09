@@ -18,3 +18,4 @@ display_generic=false
 location=center
 key_expand=Tab
 insensitive=false
+@import "~/.cache/wal/colors-rofi-dark"

@@ -16,7 +16,6 @@
     "margin-left": 0,
     "margin-right": 0,
     "spacing": 0,
-
     //  Load Modules
     "include": ["~/.config/waybar/modules.json"],
     
@@ -32,15 +31,7 @@
         "hyprland/workspaces",
     ],
     "modules-right": [
-        "custom/updates",
-        "group/hardware",
-        "bluetooth",
-        "network",
-        "pulseaudio",
-        "battery",
-        "custom/cliphist",
-        "idle_inhibitor",
-        "custom/exit"
+        "group/rechts",
     ]
 }
 
