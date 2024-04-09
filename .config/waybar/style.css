@@ -45,7 +45,6 @@ window#waybar {
 /* -----------------------------------------------------
  * Workspaces 
  * ----------------------------------------------------- */
-/*
 #workspaces {
     background: @workspacesbackground1;
     margin: 5px 1px 5px 1px;
@@ -58,8 +57,6 @@ window#waybar {
     font-size: 14px;
     color: @textcolor1;
 }
-*/
-/*
 #workspaces button {
     padding: 0px 5px;
     margin: 4px 3px;
@@ -70,8 +67,6 @@ window#waybar {
     transition: all 0.3s ease-in-out;
     opacity: 0.4;
 }
-*/
-/*
 #workspaces button.active {
     color: @textcolor1;
     background: @workspacesbackground2;
@@ -80,15 +75,12 @@ window#waybar {
     transition: all 0.3s ease-in-out;
     opacity:1.0;
 }
-*/
-/*
 #workspaces button:hover {
     color: @textcolor1;
     background: @workspacesbackground2;
     border-radius: 10px;
     opacity:0.7;
 }
-*/
 
 /* -----------------------------------------------------
  * Tooltips
@@ -191,6 +183,7 @@ window#waybar.empty #window {
  
 #custom-system {
     margin-right:10px;
+    margin-left:10px;
 }
 
 #custom-wallpaper{
@@ -286,9 +279,9 @@ window#waybar.empty #window {
     font-size: 14px;
     font-weight: bold;
     color: @textcolor1;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 1px 10px 0px 10px;
-    margin: 6px 15px 6px 9px;
+    margin: 6px 10px 6px 9px;
     opacity:0.8;
     border:2.3px solid @bordercolor;   
 }
@@ -398,8 +391,12 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #tray {
-    padding: 0px 15px 0px 0px;
+    background-color: @backgroundlight;
     color: @textcolor3;
+    border-radius: 10px;
+    padding: 1px 8px 0px 8px;
+    margin: 5px 0px 8px 0px;
+    opacity: 0.8;
 }
 
 #tray > .passive {
@@ -410,11 +407,29 @@ window#waybar.empty #window {
     -gtk-icon-effect: highlight;
 }
 
-#rechts{
+#basis{
     background-color: @backgrounddark;
     color: @textcolor1;
     border-radius: 10px;    
     padding: 1px 0px 0px 0px;
-    margin: 5px 0px 8px -2px;
+    margin: 5px 9px 8px 0px;
+    opacity: 0.8;
+}
+
+#apps{
+    background-color: @backgrounddark;
+    color: @textcolor1;
+    border-radius: 10px;    
+    padding: 1px 0px 0px 0px;
+    margin: 5px 10px 8px 0px;
+    opacity: 0.8;
+}
+
+#info{
+    background-color: @backgrounddark;
+    color: @textcolor1;
+    border-radius: 10px;    
+    padding: 1px 0px 0px 0px;
+    margin: 5px 9px 8px 0px;
     opacity: 0.8;
 }

@@ -22,16 +22,16 @@
 
     "modules-left": [
         "clock",
-        "group/quicklinks",
-        "custom/wallpaper",
+        "group/apps",
         "tray",
-        "custom/chatgpt"
     ],
     "modules-center": [
         "hyprland/workspaces",
     ],
     "modules-right": [
-        "group/rechts",
+        "custom/updates",
+        "group/info",
+        "group/basis",
     ]
 }
 

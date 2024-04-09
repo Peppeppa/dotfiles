@@ -217,8 +217,8 @@
         ]
     },
 
-    // Group system
-    "group/rechts": {
+    // Group basis
+    "group/basis": {
         "orientation": "horizontal",
         "modules": [
             "bluetooth",
@@ -228,6 +228,24 @@
             "custom/cliphist",
             "custom/idle_inhibitor",
             "custom/exit",
+        ]
+    },
+
+    // Group apps
+    "group/apps": {
+        "orientation": "horizontal",
+        "modules": [
+            "group/quicklinks",
+            "custom/wallpaper",
+            "custom/chatgpt",
+        ]
+    },
+
+    // Group info
+    "group/info": {
+        "orientation": "horizontal",
+        "modules": [
+            "group/hardware",
         ]
     },
 
