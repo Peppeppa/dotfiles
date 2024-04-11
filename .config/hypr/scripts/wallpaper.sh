@@ -50,7 +50,7 @@ case $1 in
         selected=$( find "$HOME/wallpaper" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec basename {} \; | sort -R | while read rfile
         do
             echo -en "$rfile\x00icon\x1f$HOME/wallpaper/${rfile}\n"
-        done | wofi -dmenu -i -replace -config ~/dotfiles/rofi/config-wallpaper.rasi)
+        done | rofi -dmenu -i -replace -config ~/dotfiles/rofi/config-wallpaper.rasi)
         if [ ! "$selected" ]; then
             echo "No wallpaper selected"
             exit
