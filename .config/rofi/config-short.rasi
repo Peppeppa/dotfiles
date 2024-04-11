@@ -28,7 +28,7 @@ configuration {
 }
 
 /* ---- Load font ---- */
-@import "~/.config/.settings/rofi-font.rasi"
+@import "~/dotfiles/.settings/rofi-font.rasi"
 
 /* ---- Load pywal colors (custom wal template) ---- */
 @import "~/.cache/wal/colors-rofi-pywal"
@@ -37,12 +37,13 @@ configuration {
 @import "~/.cache/current_wallpaper.rasi"
 
 /* ---- Load border width ---- */
-@import "~/.config/.settings/rofi-border.rasi"
+@import "~/dotfiles/.settings/rofi-border.rasi"
 
 /* ---- Window ---- */
 window {
-    width:                        600px;
-    x-offset:                     0px;
+    width:                        200px;
+    height:                       130px;
+    x-offset:                     -14px;
     y-offset:                     65px;
     spacing:                      0px;
     padding:                      0px;
@@ -52,8 +53,8 @@ window {
     border-color:                 #FFFFFF;
     cursor:                       "default";
     transparency:                 "real";
-    location:                     north;
-    anchor:                       north;
+    location:                     northeast;
+    anchor:                       northeast;
     fullscreen:                   false;
     enabled:                      true;
     border-radius:                10px;
@@ -84,7 +85,7 @@ listbox {
     spacing:                     20px;
     background-color:            transparent;
     orientation:                 vertical;
-    children:                    [ "inputbar", "message", "listview" ];
+    children:                    [ "listview" ];
 }
 
 /* ---- Dummy ---- */
@@ -148,7 +149,7 @@ button selected {
 listview {
     enabled:                      true;
     columns:                      1;
-    lines:                        8;
+    lines:                        2;
     cycle:                        true;
     dynamic:                      true;
     scrollbar:                    false;
