@@ -222,6 +222,7 @@
         "orientation": "horizontal",
         "modules": [
             "bluetooth",
+            "vpn",
             "network",
             "pulseaudio",
             "battery",
@@ -333,7 +334,14 @@
             "deactivated": ""
         },
         "on-click-right": "hyprlock"        
-    }
+    },
+  
+    "vpn": {
+        "format": "",
+        "tooltip": "click - start vpn click right - stop vpn",
+        "on-click": "exec $HOME/.config/scripts/startvpn.sh",
+        "on-click-right": "exec $HOME/.config/scripts/stopvpn.sh",
+    },
 
 }
 
