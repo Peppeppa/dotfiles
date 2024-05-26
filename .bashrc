@@ -55,6 +55,7 @@ alias rlbash='source ~/.bashrc'
 alias v='nvim'
 alias r='ranger'
 
+
 #	Git
 
 alias g='git status'
