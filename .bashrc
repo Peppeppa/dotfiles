@@ -10,7 +10,11 @@
 #--------------------------------------------------
 
 #restore colorscheme
-wal -R -q
+if command -v wal &> /dev/null
+then
+    # 'wal' ist installiert, Befehl ausführen
+    wal -R -q
+fi
 neofetch
 
 
