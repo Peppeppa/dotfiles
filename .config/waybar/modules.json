@@ -270,7 +270,8 @@
         "tooltip-format-ethernet": " {ifname}\nIP: {ipaddr}\n up: {bandwidthUpBits} down: {bandwidthDownBits}",
         "tooltip-format-disconnected": "Disconnected",
         "max-length": 50,
-        "on-click": "~/.config/.settings/networkmanager.sh"
+        "on-click": "~/.config/.settings/networkmanager.sh",
+        "on-click-right": "~/.config/scripts/wifi.sh"
     },
 
     // Battery
