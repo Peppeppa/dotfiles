@@ -321,7 +321,8 @@
         "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
         "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%",
         "interval": 30,
-        "on-click": "blueman-manager",
+        "on-click": "sleep 0.1 && ~/.config/scripts/bluetooth.sh",
+        "on-click-right": "sleep 0.1 && ~/.config/scripts/bluetooth.sh -d",
         "format-no-controller": ""
     },
 
